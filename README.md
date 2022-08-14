@@ -3,8 +3,8 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ## Getting started
-PyTic2 is an object-oriented Python wrapper for the Pololu Tic stepper driver series. The wrapper maps the commands defined in the Pololu Tic user manual
-to API of pytic2 class. The device comunication protocol is I2C.
+`PyTic2` is a Python wrapper for the Pololu Tic Stepper Motor Controller series.
+It is similar and inspired by the [PyTic](https://github.com/AllenInstitute/pytic) driver developed by the Allen Institute. The `PyTic2` driver is intended to be used on a Raspberry PI and uses the I2C interface for the communication with the Pololu Tic Stepper Motor Controllers. The API consists of the commands defined in the [Tic Stepper Motor Controller User’s Guide](https://www.pololu.com/docs/0J71)
 
 ### Prerequisites
 
